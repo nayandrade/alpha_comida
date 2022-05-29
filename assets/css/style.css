@@ -13,7 +13,7 @@ header {
     justify-content: center;
     align-items: center;
 }
-header a{
+.header-top a{
     text-decoration: underline;
     cursor: pointer;
 }
@@ -99,6 +99,10 @@ nav {
 .login img {
     width: 26px;
     height: 26px;
+}
+.login p:hover{
+    cursor: pointer;
+    filter: brightness(1.4);
 }
 .order-online {
     width: 170px;
